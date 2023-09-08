@@ -1,21 +1,30 @@
-import java.util.Scanner;
-
-public class first{
-	public static void main (String args[])
-		{
-			Scanner sun = new Scanner(System.in);
-			double no1 , no2 , ans;
-			
-			System.out.println("Enter first number");
-			no1 = sun.nextDouble();
-			
-			System.out.println("Enter second number");
-			no2 = sun.nextDouble();
-			 
-			ans = no1 + no2;
-		
-			 System.out.println("Anser is" + ans);
-			
-		}	
-	
+package kusala;
+public class Kusala {
+    
+    public static void main(String[] args)  {
+    
+        int age = 19;
+        
+        switch(age){
+        
+            case  15 :
+               System.out.println("Your age is 15");
+              break;
+              
+            case  16 :
+               System.out.println("Your age is 16");
+              break;
+              
+            case  17 :
+               System.out.println("Your age is 17");
+              break;
+              
+            default  :
+               System.out.println("I dont Know ");
+        
+        
+        }
+        }
+    }
 }
+    
